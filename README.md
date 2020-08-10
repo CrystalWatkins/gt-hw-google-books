@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is built using React and React Bottstrap that included an "About Me" page, "Portfolio" page, and a "Contact" page. 
+This is built using Full Stack. We are using the Google Books API to be able to search for books by title and then are able to save those books. You are also able to go to the saved page and it will show you all your saved books and allow you to delete any books you do not want saved.
 
 ## Table of Contents
 
@@ -14,10 +14,10 @@ This is built using React and React Bottstrap that included an "About Me" page, 
 
 ## Installation
 
-1. Clone the repo
+1. Open the Heroku link
 2. In the terminal, type "npm start"
 
-[Link to Code](https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio).
+[Link to Code](#).
  
 [Website link for My Portfolio Page](https://crystalwatkins.github.io/Crystal-Watkins-Portfolio/)
 
