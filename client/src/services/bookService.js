@@ -14,5 +14,5 @@ export function getBookById (id) {
 }
 
 export function deleteBookById (id) {
-    return http.get(`http://localhost:3001/api/books${id}`)
+    return http.delete(`http://localhost:3001/api/books/${id}`)
 }

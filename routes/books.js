@@ -29,7 +29,7 @@ router.post("/", async(req, res) => {
 })
 
 router.delete("/:id", (req, res) => {
-    Book.findByIdAndDelete(req.params.id)
+    Book.findByIdAndRemove(req.params.id)
     .then(book => {
         res.json(book)
     })

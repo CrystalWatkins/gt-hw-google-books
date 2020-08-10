@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "./common/Jumbotron";
 import { searchResults } from "../services/apiService";
+import { saveBook } from "../services/bookService";
 
 class Search extends Component {
   state = {
@@ -27,6 +28,12 @@ class Search extends Component {
     });
     this.setState({ booksSearched: booksSearched });
   };
+
+  saveBook = async(book) => {
+    console.log(book);
+    const result = await saveBook(book.title, book.authors, book.description, book.image, book.link)
+    console.log(result)
+  }
 
   render() {
     return (
@@ -57,7 +64,7 @@ class Search extends Component {
                     <button className="btn btn-secondary">
                       <a href={book.link}></a>View
                     </button>
-                    <button className="btn btn-danger">Delete</button>
+                    <button className="btn btn-primary" onClick= {() => this.saveBook(book)}>Save</button>
                   </div>
                 </div>
               </div>

@@ -7,7 +7,7 @@ const Book = mongoose.model("books", new mongoose.Schema({
         minlength: 1
     },
     authors: {
-        type: String,
+        type: [String],
         required: true, 
         minlength: 1
     },
