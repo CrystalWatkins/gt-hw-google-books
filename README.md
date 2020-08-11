@@ -15,27 +15,29 @@ This is built using Full Stack. We are using the Google Books API to be able to 
 ## Installation
 
 1. Open the Heroku link
-2. In the terminal, type "npm start"
+OR
+1. Download the code
+2. Run npm install in both client and server.js
+3. In the terminal, type "npm start"
 
-[Link to Code](#).
+[Link to Github Repo](https://github.com/CrystalWatkins/react-google-books).
  
-[Website link for My Portfolio Page](https://crystalwatkins.github.io/Crystal-Watkins-Portfolio/)
+[Link to heroku](https://gt-hw-react-google-books.herokuapp.com/search)
 
 
 ## Usage 
 
 This simple HTML file uses best practices for accessibility in programming.
 
-[Link to Code](https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio).
+[Link to Github Repo](https://github.com/CrystalWatkins/react-google-books).
  
-[Website link for My Portfolio Page](https://crystalwatkins.github.io/Crystal-Watkins-Portfolio/).
+[Link to heroku](https://gt-hw-react-google-books.herokuapp.com/search).
 
-![Web Page 1](./public/Images/portfoliopage.png)
+![Web Page 1](./client/public/screenshot.png)
 
 ## Credits
 
-This was an Interactive Portfolio webpage completed as a homework for the Georgia Tech, 
-FullStack Flex Program.
+This was completed as a homework for the Georgia Tech, FullStack Flex Program.
 
 ## MIT_License
 
