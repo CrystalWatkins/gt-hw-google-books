@@ -30,9 +30,14 @@ class Search extends Component {
   };
 
   saveBook = async(book) => {
-    console.log(book);
+    try {
+        console.log(book);
     const result = await saveBook(book.title, book.authors, book.description, book.image, book.link)
-    console.log(result)
+    console.log(result); 
+    alert("You saved this book!")
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   render() {
